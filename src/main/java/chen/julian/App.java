@@ -44,16 +44,16 @@ public class App extends Application {
     public static Button restart = new Button("Return to home");
 
     // import board image
-    ImageView board = new ImageView("C:/Users/Julia/OneDrive/Desktop/final2223/src/main/connect 4.5.png");
+    ImageView board = new ImageView("connect4.5.png");
     // import settings picture
-    ImageView settingpic = new ImageView("C:/Users/Julia/OneDrive/Desktop/final2223/src/main/setting.png");
+    ImageView settingpic = new ImageView("setting.png");
     // import pause icon
-    ImageView pausepic = new ImageView("C:/Users/Julia/OneDrive/Desktop/final2223/src/main/pause.png");
+    ImageView pausepic = new ImageView("pause.png");
     // import background animation pictures
-    ImageView backgroundanimation1 = new ImageView("C:/Users/Julia/OneDrive/Desktop/final2223/src/main/smiley2.png");
-    ImageView backgroundanimation2 = new ImageView("C:/Users/Julia/OneDrive/Desktop/final2223/src/main/smiley3.png");
-    ImageView backgroundanimation3 = new ImageView("C:/Users/Julia/OneDrive/Desktop/final2223/src/main/smileyface.png");
-    ImageView backgroundanimation4 = new ImageView("C:/Users/Julia/OneDrive/Desktop/final2223/src/main/patel.png");
+    ImageView backgroundanimation1 = new ImageView("smiley2.png");
+    ImageView backgroundanimation2 = new ImageView("smiley3.png");
+    ImageView backgroundanimation3 = new ImageView("smileyface.png");
+    ImageView backgroundanimation4 = new ImageView("patel.png");
 
     // create backgrounds
     public static Rectangle background = new Rectangle(600, 600, Color.LIGHTSKYBLUE);
